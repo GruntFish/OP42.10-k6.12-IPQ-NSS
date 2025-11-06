@@ -1,9 +1,9 @@
 #科学插件调整
-CONFIG_PACKAGE_luci-app-homeproxy=y
+#CONFIG_PACKAGE_luci-app-homeproxy=y
 
 #科学相关
-CONFIG_PACKAGE_kmod-veth=y
-CONFIG_PACKAGE_kmod-wireguard=y
+CONFIG_PACKAGE_kmod-veth=n
+CONFIG_PACKAGE_kmod-wireguard=n
 
 #删除插件
 CONFIG_PACKAGE_luci-app-ttyd=n
